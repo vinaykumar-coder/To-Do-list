@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="vinay_portfolio.html">Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="education.html">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  active" aria-current="page" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="contactme.html">Contact me</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Project #1
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <img src="https://content.instructables.com/F93/27TO/JPGSHTP2/F9327TOJPGSHTP2.jpg?auto=webp"
+                        alt="car control using mobile using DTMF" width="20%">
+                    <br><strong>Car control using mobile using DTMF</strong>:<br> The commands are received by a DTMF
+                    decoder connected to an 8051 microcontroller, which then controls the vehicle movement with the help
+                    of a motor driver. Thus, with the motor driver IC, two DC motors enable vehicle movement based on
+                    commands supplied from the phone. The power source is a battery.<code>.accordion-body</code>, though
+                    the transition does limit overflow.
+                    <a href="https://www.youtube.com/watch?v=5ZR6FvYMrtM">Project link</a>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Project #2
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <br><img
+                        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVEhgVFRUYGBgaGBgYGBgcHRwZGBgYGRgaGhgYGBocIS4lHCEsIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHj8rJCs3NDc0ND0xNjYxNDQ0NDQ0MTE4ODQ0NDQ1NDQ0NDE0NDQ2NDQ2NDY0NDQ2NDQ0MTQ0Nv/AABEIAM0A9gMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAABAAIEBQYDB//EAEcQAAIBAgMFAwgGBgoBBQAAAAECAAMRBBIhBTFBUWEGInETMoGRobHR8AdCUmLBwiNykqKy4RQkM0NTY4LD0vEVNESTlLP/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAArEQACAgICAQMDBAIDAAAAAAAAAQIRAyESMUEEE1EiYZGhsdHwcYEFFFL/2gAMAwEAAhEDEQA/APQYoIpkWGGCKMAwRXggJigiigAIojFGFjYooIUFhivBFAQoRBEJQDwYRBEImA+K8beK8QwkxhMRMaTM2ykAmC8RgkMtAJjSYSYwxFCvFBFAAxQQwAMUEUAJsUUU2MADrDDBGAoIYoACKGKMBsbHwEQENgj42UAJE2tjxQovVYXCAabrlmCqL8BdhrJkyv0i4pkwdha1R1Rri+45wBy832QEVlXtviR/7NB41h+KicE7dYtr5cNQ0/zb+6UtPE1iMwquBfgzA9Nx6SVgNo1h51R7XC3zv5xAIG+3D2zeGFSdNmc8vFNo7H6Q8Wd2Go/tMfzCRj9ImP4UcMPQ55f5nUSpqbUr3KmtVYEgEF3IPmg6E+MrXa2lt9vyfzi9pLsfO+jSn6RMeCMyYdbkAWRzqTYf3nSMr/SBjxu8jb9Qjlzc8xM1iLEp+sv8RhK3tfcLenzI/aiLmy+bt9tH7VLjuQfjecz272iR56Df9ROF/u9JSuBl3nQG3pv8PZODtlvpc97w/vPhIeKJSky8ftrtHX9OB4JT4X+590y57M9psa+KpLUr50d8jKUQDc1yCqggi3OYhn1Og4/7k0vZNr4rDD/PY+tal/4Vmc4JRui4ybZ66Y2OME5ToBFFFABRRRQAMUUUAJsMUU3MBRRQwAEVoYowFAYYoCY0wWjoJQDYLR0UBDbTK/SRSzYE9HB/ceayZn6QyRs6qQDoBu4bxf269CYLsTKLB9mXekjoyWdFOVsykG2veF76nlMtjK4SoafdKhiptqC2qhg3L4TaUu0NGjs8WLBwllQsA5BBAcHLa3dbUDesww2jhAbHC1WPEnEAC+ZtQBRvwPGdrlFJNI5IRlJtSeiuzW1uT5uu470jGOo9H5JPr4zDE93DFR3RY13bW663yDp6usjjF0jYigBuHnuTqE/l6pnKV+DdRryRKr3y67mX+KSFOg8B+WFsRSsD5BfOXTO/Ej70kpjKdgfIJuH1nPC/2oot/ANL5K3E1LX8PwqTiymxJ+8P/wBJYYjHoCf6vTO/eX5P9/ofXObbTUX/AKvR3tvVz9v7/T2mJt30WkmiGV1Pp99SaLsYP65QH+ax/cc/mlWdoi/9hQ4/Ub74+119pl12RxGfHYceTRf0r+atibYdjqb/AHvYJlNtxZUVTPXjGxxjZxnSCKGKAAiiigAooooAT4I60Fp0GAoobQ2gA2G0NoYCGwR8FoANgj7RWlAc7RR9oLQENmf7c082zq4+4P4hNDKbthSL4DEKN5Q28bi0XQHm+2NnF8FQxGe1kWllt9+uwN/SRMwUtfpfX/5JqsZjkOy6C5wWzr3b62vUJ0/1r+0JlHzFSwUkW1IGmqtv/anV2kYRvd/I0nvac/zfyjKR1HiP9uHW50O88DzqfARqggjQ8OH6kmzShE7rbsy+q6kR4ayjw/IZyVGsDY70/LGuWtuO7l90xqVCcbBW4/6v9yNYXuB97/c+MeVN9x3nh+v8R646kp5cfzN8ZMmUkFN/p/OPjNH2IIOOw3PylUn/AOtM3lOmlt3Lmh+PqM0PYOn/AF2gG51Dv1/sAOB01v6plOX0suK+pHskEV4rzkOgUUEUADFBDABRRRQJLC0Vo60Vp0GQ20NobQ2gA20NobQ2joQ20Vo60VowGWitH2itAQy0BEfaAiADLSu23UpCi6VaqUlYWzOQN/QkX8J12vsxcRTKOSNbgjgbEagEX37rzHYXZKYFy2JwaVUuSMTTVnKD/MpMSR+st/AzOUmnVFxinu9maXska5yYKpXqINBVdRSoLrqELAu/LRfTJSfRvlq00xGLJFTMEyaHOq5itn3jKDqOQ01nqmFrI9NXpsrIRdWUgqR0tPMPpexDCth1BtZHYEaEEtbQ8PNlq+rJdfBMf6LMMN9bEH0oPyGVuO7CYOnWo0i+IJrNUVTmSylEzajJx3TELtGsN1aoPB3H4zk2LqFwxqOWXzSXYldNbEnSJqXyNNfB6Hi/o7w6qWWpWY6aMy2IvruUHd1mQq9mxYEEga33GbLsRtarXoMlRy7o1g5NyQ4uMxOpIJI8LSPh7OCDw09Nzec85yi+zeEYy3RjaWy0DBXGUnc1+43g3PoZYr2dTkP2pe1tnowOm/eDqp8QffIVHDvS4Epe2++X9U7yOh9BO6S8kn5Nlhi+vx5Ii9nE5D1majsPsinRrswAzZCAd51Zb6mQkC6GXfZ2kDVffZUXjbVma3sBkKcm6shxil0ay8MjCmObftN8Y8Uxzb9pvjL2Ro7RQCESgFDFFABRRRQAtII60Vp00YAtDDaECFCG2htHWitGAwCcnxVNTlZ0BG8FlBF91xfSSLTA9of/AFVTxXh0Aik2loqEVJ0zbJi6Z3VEPg6n8Z0VwdzAjoQZ41t3GPTX9GhZu6LAXy+dZiFB006bxK3BYp3Ul1KnRSOJAI3Keo08DJtmjxRurPeCRzE5vVQb2UekTxSmbXHDKTqcv1gPwGk6PbXd9f654/PpkPLXgpenT8nsRxSfbT9ofGdAwnirkX+r532ifqRuHpZj3cgsqksb2UA6ljw5db2FyRJef7Ff9ZfP6Hp2J2E1N2rYN/IuxzPTIvh6p++g8xt3eWx0nmf0lY9qlel5Sk1KolPKyMQVvnY5kcaOp56S47P4hRi6SIzsczjNcotghOlPW/pPWwkX6TMdUTE0wjlb0tWAXN576B7XA6A2lQnyekZ5YcVswAMEsa1Q1aDPUsXWoiI9gGcMrl1Yjz7ZUNzqL2vqJWX3zW7MD0vsfs5U2atVR3nZ2dvrDKxRQvTug663Y+Eg7OBDNxvr6yZpex2EYbNpo6shPlCQQVYXquRcHdpYzPUhbN6PeZyZHcjqxrRKOnEgeF/wMk4QXQXG+9weRPESThEDoGCjluB3QvSK62mDZujO1qoSu6AWTNZehsNNeF729U0/ZhXOd1K2JUEHfoCR/EZEGzVd2ulwTqefOXGxMAtHPa/eItc8ADYdd51369JcasWR8o35/ctBm+77Y8ZunthEeJrRhYVhAgEcIwFDFFAARQxQJLW8V5E8sOBEctcc502jGmSY6RhVhFSFiJMU4eVhFSMDvPP9uC+KqaX7wG4nkJuWrAAkmwAuSdwA3med9oMYwxjondzFmZzpZQbac+G7xN7SZt1o2w1ydkU4F7nuftFV+sTuZhwsPDSQKuwKgN1RN4J7yHc3V+Xut48McnEu50NrkWvc7xlta1z82le7u5FMKjWOUFECkgbgRTK3Gn2SZjxn/wCkdDnGuuicmy8QPqb0YaNTNjckA2f2ztVwNf8Aw6h1bzVVt6/dvIAwVZC10c9wi4D8db8Oe62kjVtptmARjqx0u4PmgDeQd9/SPXDx5e9NfYuM8b80TnpupAZagJZbAqFJJFrC43xYxyq+TUmyi7kEd9wbHXiq6gek8Y7Z21MQA2VyTlXKGY5F11eoWNgoHDiSLbjGB6FY2K0/KgHIVUpTrMAzMq0swANlNmNgSQCNRMdp7X4NHXZedma+HBVVZHrksw7xLp3dQpAsO7vt15Sy25sSnishrI+ZcwUq5BsdSLEa7hvmX7N4wf0umBYKC9za2gpM3AKoHgo3TcLtKmaRrhsyZWa4GpCk3AB3m4l271o58i+dmYxnZGiyIpWuir3VVWp2zN5x1uSzWGp10HASpqdikFZe7iPI5WLsxS4YWygWI0Ot/CbnAB3YVa3dP1KQ1WmCLXY/Wcg2J3AaDeSe+1Md5Ki7hc2VbheBO7Xprr0vNFKS0mYtR+CLRxpG+o7/AKypr+yBImJoYZlGWmoJ1Yd4205BhMHjtv4nMScTkzEWUKMoAGoUAbusv+zPa2mGSlVKuzlUWoqZWuxsFe3C9tf+4PG67Gpr4O206lSlTAoKoAJLZlq2Cm5JuWvv98zi9o8TnC1EChrgWDqbi1iLkk+o756qakpcfhc9NqQCl0BfDlgCCtrZDfhY5D91lO+KCXTQ5SfgxdbaeLvcEZeZVu6OoO8dRaWmD2q9NFci7h1L6aWHnqNBYEG4PTxmr2BtE1MOpfzxdWubnTzSepUqdec5BwgekACFpuUB83I47qHorKV/Vyxyj4oIT2vgn4LaWfKQj5WsQ2RgLHcbnS1jLQTGdg9sBqPkXIzU/M5lDc262v6vCa5aqxJFZFxk0zsI4RiuOccGHOOjMdFFeK8ABDG3ijAqM55mEVDzMbFLpAdBXb7RhGJf7U5WhtCgO4xb/ajxjn5j1yLaK0AJn9PcixAIOhHMcZiNt4xxUCuqOFy3VxmFs5VihFmXTXQ8RNXaecdsNouuIekQDdkZHOhS5XTQajut6+kau9BpJk+ptEiqPJ00shzG5diwGYMCzuxG+4AtqLm8u07UoAC1N8tyAbaXG+1pi8FiagqFkVToQS4BCngct9TrexFheTHNyS7Etrdm1NraDXd4TD1Hpced3k7+bKxtra0abG9rKZVkIfI6le6O8t1NzckZd4190yNWgjMEyM7MQEJfL9UasBmuoAvcEaCPrHQ2N9/1R9mLEMCi1EAUZWRrX7pOhNhqSfbcTowenUcTUH0icubjJWrsrBUTOUpBylxqHyqWBIViuUjwMmbKoDyy1EDfoSruCBY5WBVSw3ksAALG9jyuO+C2KygvWPk6fdN2UCox0ICUrk3sLa5RbXXWTMZikoU17uS5LU6YPfJO6tUIF854aWVdQL5QOeeS3UdnTHUfqRGp0lpAo7EM7WqsCCUoiwZE1HeYrlPLdbQ3s8Ptpad6CB6lJs2RQjrUp5iTlGZcrAE3GotM5g8WEqisSrEAnKQUAuhVVubgKMwG/wBcn1K72L0VVWscyI11YHkAe63USlF1siTi3TX8G32dtLO6I9Kqp+sWTKtwLnvX4209En9oKKnC1AisWKGwGt/RxmA7P7ScYhC7sUFwQ3nA2Ngw5iekp3ltx4eHKCTW2ZyW6PENrGxHeK7z4nS4v6ZWZ9POb3fjPSe0XYR61QvSZUU3OVw3nk62IB0O/wAfHSkH0c4ni9L0Fz+WbqUaMXGVm/2fXY0ULqVYot1Y3I04njznTEagFfOU5l8eIPQi49MVHAuKYUt3gBrY2DW90q6tR0Yq1gR0PxmHZrtHPZbBK9Uror1ASOWdFZDbhZ86/wCocpdVFDX5lct+jX+EzjA53IIBqKL/AKyG6kdbsZNpYxmp5uZT2h5bd7ISox2xC9HGIpuCtQI/LU5T756iried7VwbtikqIujFC2ugZCNT6Le2alca3L3SVo6fUSU6fmjQI8erSjTHnkfZ8Z2TaHQx2c9F0GhzSpTaA6+o/CSExqH6wHjp747CidminBaoO438NYoCIeUw2jriC8LKGww3ivCx0CC8fEYxDRymR7WbGwr4kvVxJplVQOopu+43JzAH7Q9k1rVFVS7nKq6lr2sOJvwmb7QtTannRwSwJBuO8OZNrndEvqenQS0to6bH2dg3pnyRDKrWZipXvWBNw6DmN04Ynamz6Lsj+TzKxUjyRbUAE6hdd4mZwu166K6KFO/W2mtwLkHTS0rzs81amaqwGYlmK3vrYHzgAN3WKONuT5PQnPWjVYzbGCdCKQp5iQoIpMpBa9rXG/Q25b47BYiii06lJFJYZEYgrYAd5yDvPcNvXymMODBbIjMxCsyiwBZrgWtflmN+k6bEDeUvmJRSQgJNjdgl1Hg3tmvtJpJPXn7mcZtScmv8fY0LbVpZ3r1kJCMqLnAa1RgSQq23DKWJJ1JUW1kkVEdfLNkZWsWLolzmF8zEi95mNpqrVXUmwz5tLcR104SVgFDLlBGlrbyRytfQaW3CYSxxirRuss3JotatDDhXdUKBQSStzcW1ORtwHCxHHTdIW0WNbICaYsqg3zI7Ku42qAa9QeMk06hpq7BrMtKqyHkwXQ+I0I6gTPY7ZTKmcOXJy5u62rNwVr3Y68QL68pcFq7FKb2mi3pMaVtFZWZc13UkWsAQc3Ed30r9kT0bsvtDygTUEr3bj7Q379f+p4lSoMWKtdTbTS9zpYG27xnov0a4nNXdbkjvH1MQLei0JxrZUZ3Gj1FnJ0+ffG3+fkwD5+bRfPH4TIAs3z8mZXtQR5ROeT8TNSfnf8Jj+07XxAHJFHtY/iI0J9FNij3cw+qQ3o+t7CY/CNo68u8PSyn8zD0Q5bi1t8i4AnNY/YZT4o4/nNPBPksFAj1URgWOUdJIHVUEeEjFEcIih9ocvWMBhB6wAcUigv1igBaZ+kGfpDeCOwFmiziC4g0jsB2cQZrmwgIHOFXRAXdlUC+pIGnE6xSdKwirZT9tCRg3AJFin8azz/B4Q1AwVASiNUYswXupbMdSLnUabzPRsbtDDPTKmtRZWDb2Ug5dWI11tvuN0oKeHoJmZKtBVZCCcwuULBTm72qlgBfmI8M0k1JfoTli5O4/uVWxkpujio4TKgdFa3fsTmC3Kkbgbi84Ys0V/o7K63qM61c1iaYBUAtqRYq19QNBx1l7XpUyDnr4fKFCMLjQNe1wHFsygbxc2OpnLEbMwy5VdqOmUBQrMRn7y3CsbZhqL75p7kf6jPhL+szuGwi1HUMHZGChmpoWynIjWuENjmuNLm4N+vensvyNcFUrKhsA1VGS5GQkAsq31zXHh4m+oCjTYLTrIO+VsquyB7d7Na6DQHU6d066G3DEuHs6VBUANy3mqN1hY239BNcc1J0k+n4E4tbbVa8mfqYF3rNlo1XOigqgZSQvC48PbO+zcKVqOmRkIIurizA8j1sR653wvkTd2dgCL/2ea97gAd03Oh06G8uMLUoIC1n84ICUtmJ17irwtYk2FtL66TnnJcaS2axi+V3or9rU1SkzPuKOgt9pkOT94L65QYPH1TTIzMyJYksQFXSwuT5x4Aaka2mo7SMKmFcBHVu6QGW2gcC9xcfVbj7xMfS2NUbcV9JPwhiaUfqDJFuWh1fHA6i5a1idwHgAdTY7z/1sfolX+sVByT1XmXGwaoAAyN1B99xNl2CpNg6ju4zh1C6GxBBvcX3wnOCj2EYyk1rSPTrRWlaNuIR5j+tf+UR2yv2H9a/Gc/OPybcGWUxO3HviXPUD1KBNE+2dNEN+F2t7rzOV6Zd2dt7MTbl0v0h7iXQcGR0EjYZP0zDk7H0NSB995YIg3GQ8Mb4ipyGX15Fv75tF3FmTVNE8L0j1URoaOBHOIY/IOUWQRAwgwAGURZBHgxQAb5MRR14oBom1Uymxte1/RAD86zpmN7nfzjWY9YDObC/P1kR0cDzvDfoPUICo4MPnSUu1HU1FugYpuJQm19e6cjgeiX56+6VeOwiM9yoY9R/OJjRUFSdVpoGIyhgqggenDkE7zy7x0jw7hswpoDly+OgAJIog6AaC9td0mjCIPqIPRCMMvJfR/wBQ2PRBWtUG8Jmvct3gT3g1iMlraW3bjE+JcZiqKGJvmDHQ3JvuUtqfrE7hyk/yI4L7vhGmmYthr4KYVawWxBtaxCsVvpb/ABNPBbcZHxdVyNb573sSTa3eFrk6cd8valK0ocbmONqk6WZ0A5KjtTUepJ1+mnw5P7NfkwzY+dLrd/gh4PE1UuosBe9jnYXvf7cnrWrG3fGmo7rWv1u9jv3Gd8NhL6m0nJQ5CcrNkVD4Zn89nYcQFUXsb2JvcjkDoJ3WkgGiP+78ZaLR5g/PjD5P50kON+Sk6K1XA3U3PoX4ztTxhH90/wC78ZNCTslAcvZJ9tFcmQ12mw/un/d+MI2wf8Kp+5/yk7+jry9kPkFh7cQ5sr//AC5/wan7n/KL/wAtzpVB+wfc8n+SSNdUUEtYAbyeEftxDmyINoIT5r38B8Y3ZoBDOfrsT467/DgOgE5OTWbKoKoPPO4sPs9L8uXok7TcBYDQdBwmkVxVGcnydnQERy25xqL0jgojAcD1jrdY0L0hywAdaKMKxWPOAD7xTnY84oCLUwXMZc/IjCx+bwGds3zaG8j54c/X2wA75vCcqi3g8pGM8BWNZJzK9J0Z4wvCh2D54xjKOUdn+bQZoqA5Mo5e6VW38Kr/AKZCVq376nzamliykbmNrkHjcjfaW7OJwrICJcZcXYFRszGpcK7BOALXAvyuAbHoZMrbRpo5TMrEAElSHFm3cbyJjsIrA6ANa1xpf9YcZARBc50AI3FdLjh06zrwYMeV9/68nP6jNLGrS/g0FLEI3msp6X19W+dweX4zKeTudCNDpfQ+jX8Z3pY500JJ6Nr7d80y/wDHNbg/yYY/XJ6kjTAH5Jj1A+bSnwm10dipsrLa4zX3i4lolYcD7Z5soyi6Z3xkpK0SAensHwg9fz4Ti1Yfa9o+MrMXtkDu0xnc7hpbxJ5dYKLbpDlJRVsssVjEprdtSdFGpZjwAF9TKss1U3awAPCxVPDg79dw4XOsh4fCuz56jZ3Olh5qjkOnhLWnRPH1WNpVKJFuQ+mFACgAAdfadJ3SmPkwIAPkzqrdRJZQ5aY6/Ppj7cifXGgiEtEMVup9vwiPj7BGs0AeAh2vMfPhB7fDNEW6wXlAO15fPpijT87ooAWBHzrARHMoHP2fCMVr8/n0RWAoLCdch5+/4w+SI4+z+cYHGw+RAV+bQOZzNbp7vhAB5EYVEdeIiAHIrAUnR4y8AOZTxjSnjO4jWEAIz0FMjVNnqf8AqWIEa0adCaKWpsf7LESI+AqJfQMPVfprpNFeAmdEfV5Iqr0YS9Njk7aM3g2r00KZUdCxco6KwznewNwQT920ZUdz5mHVT90rb1Nc+2aUqOU55F+yJm8vLtIccXHqRmv6NiH0ICjlcfzk7CbMKfjbj4ky5FMco7yYk821S0jSONd9si06ZHCdFvynfIOvrgyyCxoLcjHhm6xwXrHhOsAOYeLynzaOYnnGgwAGeLyvSEzmX6CAD/KxeVHKMv0gNuUBD/KiKc7DlDAD/9k="
+                        alt="solar tracking system using arduino"><br>
+                    <br><strong>Solar tracking system project using Arduino</strong><br> In this Prototype, we are using the LDR
+                    sensor to detect the light(sun) intensity and servo motors for automatic rotation of the panel using
+                    the Arduino microcontroller. Arduino Uno board uses to control the motor as per the output of the
+                    LDR sensor. You can use the potentiometer also to operate this panel manually.13-F
+                    <a href="https://www.youtube.com/watch?v=W8kh3Jd_AsI"><b>project link</b></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
